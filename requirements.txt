@@ -1,6 +1,7 @@
-# Data Manipulation
-pandas
+# Data Manipulation & Math
 numpy
+pandas
+scipy
 
 # Visualization
 matplotlib
@@ -8,7 +9,10 @@ seaborn
 
 # Machine Learning
 scikit-learn
-scipy
 
-# Optional: For working in Notebooks
-jupyter
+# Jupyter Bridge
+ipykernel
+
+# Optional but helpful
+tqdm
+openpyxl
