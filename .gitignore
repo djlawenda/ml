@@ -1,0 +1,38 @@
+# --- Virtual Environments ---
+.venv/
+env/
+venv/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# Keep the .ipynb files, but ignore the large "execution count" history if you use specific tools
+# .python_history
+
+# --- Data & Large Files (CRITICAL) ---
+# Never sync raw data to GitHub
+data/
+datasets/
+*.csv
+*.json
+*.zip
+*.gz
+*.parquet
+
+# Tests
+test
+
+# --- Models & Weights ---
+# Large model files will fail to upload and bloat your repo
+*.pkl
+*.h5
+*.pth
+*.pt
+*.joblib
+models/
+weights/
+
+# --- IDE & OS ---
+.vscode/
+.codium/
+.DS_Store
